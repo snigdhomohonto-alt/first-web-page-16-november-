@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(219, 230, 226);
+}
+header{
+        background-color: aqua;
+        color: aliceblue;
+        text-align: center;
+        padding: 20px;
+}
+nav{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(109, 82, 82);
+    padding: 10px;
+}
+nav a{
+    background-color: rgb(88, 78, 78);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: yellow;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+section{
+    width: 40%;
+    background-color: pink;
+    padding: 15px;
+    border-radius: 10px;
+}
